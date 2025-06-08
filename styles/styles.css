@@ -41,7 +41,10 @@ main {
 }
 
 .hero {
-    background: url('/images/DSC_0467.JPG') no-repeat center center/cover;
+    /* Using a relative path lets the image load even when opening the HTML
+       directly from the filesystem. Replace this file with your own photo
+       to customize the hero background. */
+    background: url('images/DSC_0467.JPG') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     display: flex;
