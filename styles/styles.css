@@ -34,6 +34,18 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+}
+
+nav ul li a:active {
+    transform: translateY(0);
 }
 
 main {
