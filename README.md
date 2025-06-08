@@ -8,5 +8,5 @@ change the hero background. The CSS now uses a relative path (`images/DSC_0467.J
 so the image will display even when you open `index.html` directly from the
 filesystem.
 
-Navigation links have a subtle hover animation defined in `styles/styles.css`.
-You can tweak this effect by editing the `nav` rules.
+Navigation links now feature a gradient underline animation on hover. You can
+adjust this effect by editing the `nav` section of `styles/styles.css`.
