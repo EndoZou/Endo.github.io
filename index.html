@@ -39,9 +39,9 @@
     <section id="blog" class="content-section">
       <h2>Blog</h2>
       <ul>
-        <li><a href="blog/article1.html">Article 1 Title</a></li>
-        <li><a href="blog/article2.html">Game Theory in Premier League</a></li>
-        <li><a href="blog/article3.html">Article 3 Title</a></li>
+        <li><a class="zoom-link" href="blog/article1.html">Article 1 Title</a></li>
+        <li><a class="zoom-link" href="blog/article2.html">Game Theory in Premier League</a></li>
+        <li><a class="zoom-link" href="blog/article3.html">Article 3 Title</a></li>
       </ul>
     </section>
 
@@ -57,19 +57,6 @@
     <p>&copy; 2024 My Personal Website</p>
   </footer>
 
-  <script>
-    const sections = document.querySelectorAll('.content-section');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1 });
-
-    sections.forEach(section => {
-      observer.observe(section);
-    });
-  </script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
